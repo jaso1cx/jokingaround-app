@@ -26,7 +26,7 @@ async function fetchData(){
         currentDelivery = "";
 
         if (data.type === "single"){
-            jokeElement.textContent = data.newjoke;
+            jokeElement.textContent = data.joke;
         } else {
             jokeElement.textContent = data.setup;
             currentDelivery = data.delivery;
