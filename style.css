@@ -1,0 +1,21 @@
+:root {
+    --header-color: #09a7e6;
+    --button-color: #09a7e6;
+    --font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    text-align: center;
+}
+
+header {
+    background-color: var(--header-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

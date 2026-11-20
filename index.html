@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random-Jokes-For-Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Joke Generation!</h1>
+    </header>
+    <main>
+        <button onclick="fetchData()">Click for joke!</button>
+        <p id="newjoke"></p>
+
+        <button id="revealButton" onclick="revealDelivery()">Show Delivery</button>
+        <p id="delivery" hidden></p>
+    </main>
+    <script src="utilities.js"></script>
+</body>
+</html>
